@@ -1,4 +1,51 @@
+
 # Kubernetes (K8s) Explained for Beginners
+
+## Project Structure
+
+Your project is organized for clarity and best practices:
+
+```
+NGINX K8S/
+│
+├── k8s-manifests/         # All your YAML files for Kubernetes
+│   ├── nginx-deployment.yaml
+│   ├── nginx-service.yaml
+│   ├── nginx-configmap.yaml
+│   └── nginx-index.html
+│
+├── screenshots/           # All your screenshots
+│   ├── homepage.png       # Shows the custom NGINX homepage
+│   └── kube-status.png    # Shows Minikube service status output
+│
+└── read.md                # Your documentation
+```
+
+---
+
+## Screenshots
+
+### 1. Fancy NGINX Homepage
+This screenshot shows the custom homepage you created for NGINX. It proves your deployment works and looks great!
+
+![Fancy NGINX Homepage](screenshots/homepage.png)
+
+**Explanation:**
+- The page says "Welcome to Fancy NGINX! 🚀"
+- Shows your custom HTML and CSS running inside a Kubernetes pod.
+- NodePort makes it accessible from your browser.
+
+### 2. Minikube Service Status
+This screenshot shows the output of the `minikube service nginx-service` command. It confirms your service is running and accessible.
+
+![Minikube Service Output](screenshots/kube-status.png)
+
+**Explanation:**
+- Displays the service name, target port, and the URL to access your app.
+- Shows both the cluster IP and the local tunnel URL (for Windows Docker driver).
+- Proves your NodePort service is working and Minikube is forwarding traffic.
+
+---
 
 ## Table of Contents
 - [Intro to K8s](#intro-to-k8s)
