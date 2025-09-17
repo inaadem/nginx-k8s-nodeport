@@ -18,7 +18,7 @@ NGINX K8S/
 │   ├── homepage.png       # Shows the custom NGINX homepage
 │   └── kube-status.png    # Shows Minikube service status output
 │
-└── README.md             
+└── README.md              # Your documentation
 ```
 
 ---
@@ -28,7 +28,8 @@ NGINX K8S/
 ### 1. Fancy NGINX Homepage
 This screenshot shows the custom homepage you created for NGINX. It proves your deployment works and looks great!
 
-![Fancy NGINX Homepage](screenshots/homepage.png)
+![Fancy NGINX Homepage](https://github.com/inaadem/nginx-k8s-nodeport/blob/main/screenshots/homepage.png)
+
 
 **What you see:**
 - The page says "Welcome to Fancy NGINX! 🚀"
@@ -38,7 +39,7 @@ This screenshot shows the custom homepage you created for NGINX. It proves your 
 ### 2. Minikube Service Status
 This screenshot shows the output of the `minikube service nginx-service` command. It confirms your service is running and accessible.
 
-![Minikube Service Output](screenshots/kube-status.png)
+![Minikube Service Output](https://github.com/inaadem/nginx-k8s-nodeport/blob/main/screenshots/kube-status.png)
 
 **What you see:**
 - Service name, target port, and the URL to access your app.
