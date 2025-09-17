@@ -18,7 +18,7 @@ NGINX K8S/
 │   ├── homepage.png       # Shows the custom NGINX homepage
 │   └── kube-status.png    # Shows Minikube service status output
 │
-└── read.md                # Your documentation
+└── README.md              # Your documentation
 ```
 
 ---
@@ -30,15 +30,20 @@ This screenshot shows the custom homepage you created for NGINX. It proves your 
 
 ![Fancy NGINX Homepage](screenshots/homepage.png)
 
-**Explanation:**
+**What you see:**
 - The page says "Welcome to Fancy NGINX! 🚀"
-- Shows your custom HTML and CSS running inside a Kubernetes pod.
+- Custom HTML and CSS running inside a Kubernetes pod.
 - NodePort makes it accessible from your browser.
 
 ### 2. Minikube Service Status
 This screenshot shows the output of the `minikube service nginx-service` command. It confirms your service is running and accessible.
 
 ![Minikube Service Output](screenshots/kube-status.png)
+
+**What you see:**
+- Service name, target port, and the URL to access your app.
+- Cluster IP and local tunnel URL (for Windows Docker driver).
+- Proof that your NodePort service is working and Minikube is forwarding traffic.
 
 **Explanation:**
 - Displays the service name, target port, and the URL to access your app.
