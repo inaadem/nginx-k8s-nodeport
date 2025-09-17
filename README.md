@@ -18,7 +18,7 @@ NGINX K8S/
 │   ├── homepage.png       # Shows the custom NGINX homepage
 │   └── kube-status.png    # Shows Minikube service status output
 │
-└── README.md              # Your documentation
+└── README.md             
 ```
 
 ---
