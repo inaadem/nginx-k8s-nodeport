@@ -1,5 +1,5 @@
 
-# Kubernetes (K8s) Explained for Beginners
+# Nginx-k8s-nodeport
 
 ## Project Structure
 
@@ -25,7 +25,7 @@ NGINX K8S/
 
 ## Screenshots
 
-### 1. Fancy NGINX Homepage
+### 1. NGINX Homepage
 This screenshot shows the custom homepage you created for NGINX. It proves your deployment works and looks great!
 
 ![Fancy NGINX Homepage](https://github.com/inaadem/nginx-k8s-nodeport/blob/main/screenshots/homepage.png)
