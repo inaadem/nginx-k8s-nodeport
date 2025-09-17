@@ -38,7 +38,8 @@ This screenshot shows the custom homepage you created for NGINX. It proves your 
 ### 2. Minikube Service Status
 This screenshot shows the output of the `minikube service nginx-service` command. It confirms your service is running and accessible.
 
-![Minikube Service Output](screenshots/kube-status.png)
+![Minikube Service Output](https://github.com/<kullanıcı_adı>/<repo_adı>/blob/main/screenshots/kube-status.png
+)
 
 **What you see:**
 - Service name, target port, and the URL to access your app.
